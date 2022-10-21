@@ -1,5 +1,6 @@
 import express from 'express';
-import fs from 'fs/promises';
+// import fs from 'fs/promises';
+import { promises as fs } from 'fs';
 import path from 'path';
 
 interface Cell {
